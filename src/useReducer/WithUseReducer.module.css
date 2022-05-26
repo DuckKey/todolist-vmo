@@ -1,0 +1,85 @@
+.todoContainer {
+    background: rgb(41, 33, 33);
+    width: 40vw;
+    margin: 10em auto;
+    border-radius: 15px;
+    padding: 20px 10px;
+    color: white;
+    border: 3px solid rgb(36, 110, 194);
+}
+
+.form {
+    display: flex;
+    flex-direction: row;
+}
+
+.header {
+    margin: 0.5em;
+    font-size: 2em;
+    text-align: center;
+}
+
+.input {
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 0.5em;
+    margin: 0.5em;
+    position: relative;
+    padding-right: 11rem;
+    width: 69%;
+}
+
+.btnDelete {
+    background: rgb(12, 124, 251);
+    border-radius: 5px;
+    margin: 0px 5px;
+    padding: 3px 5px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    position: absolute;
+    top: 8px;
+    right: 80px;
+}
+
+.btnClearAll {
+    background: red;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 0.5em;
+    margin: 0.5em;
+    position: relative;
+    cursor: pointer;
+    color: white;
+}
+
+.btnCompleted {
+    background: rgb(12, 124, 251);
+    border-radius: 5px;
+    margin: 0px 5px;
+    padding: 3px 5px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    position: absolute;
+    top: 8px;
+    right: 0;
+}
+
+.task {
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 0.5em;
+    margin: 0.5em;
+    position: relative;
+  }
+
+  .btnAdd {
+    background: rgb(12, 124, 251);
+    border-radius: 5px;
+    margin: 6px;
+    padding: 3px 5px;
+    border: none;
+    cursor: pointer;
+    color: white;
+  }
