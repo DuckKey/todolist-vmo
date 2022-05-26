@@ -21,7 +21,7 @@ function reducer(state, action) {
             }
             break
         case "clearAll-todo":
-            for(let i = 0; i < state.lenght; i++ ) {
+            for(let i = 0; i < state.length; i++ ) {
                 if(state[i].completed ) {
                     state.splice(i,1)
                 }
